@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <div className="grotesk max-w-8xl mx-auto">
       <div className="w-full text-black">
-        <section className="z-10 absolute left-0 flex w-full flex-col items-center h-full justify-center top-9 md:top-0">
+        <section className="z-10 absolute left-0 flex w-full flex-col items-center h-[calc(100%_+_3rem)] justify-center top-9 md:top-0">
           <article className="relative">
             <div className="w-80 md:w-96 h-11 bg-yellow-400 -skew-x-12"></div>
             <p
@@ -124,13 +124,14 @@ export default function Main() {
                     <h2 className="text-base md:text-xl text-gray-400 font-bold">
                       Ing. Sistemas Computacionales @
                       <a href="https://beacons.ai/merrm.s" target="_blank"
-                        className="text-indigo-400 hover:text-indigo-200 font-bold border-b-0 hover:border-b-4 hover:border-b-indigo-300 transition-all mb-2" rel="noreferrer">
+                        className="text-indigo-400 hover:text-indigo-200 font-bold border-b-0
+                        hover:border-b-4 hover:border-b-indigo-300 transition-all mb-2" rel="noreferrer">
                         merrm.s
                       </a>
                     </h2>
                     <ul className="flex flex-row mt-2">
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
+                        <a href="https://www.instagram.com/merrm.s" target="_blank" aria-label="Instagram">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>Instagram</title>
@@ -138,7 +139,7 @@ export default function Main() {
                           </svg> </a>
                       </li>
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
+                        <a href="https://www.tiktok.com/@merrm.s" target="_blank" aria-label="TikTok">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 50 50"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>Tiktok</title>
@@ -147,10 +148,10 @@ export default function Main() {
                       </li>
 
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
+                        <a href="https://www.youtube.com/@merrm.s" target="_blank" aria-label="Youtube">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 30 30"
                             xmlns="http://www.w3.org/2000/svg">
-                            <title>Tiktok</title>
+                            <title>Youtube</title>
                             <path d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"></path>
                           </svg> </a>
                       </li>
@@ -176,7 +177,7 @@ export default function Main() {
                     </h2>
                     <ul className="flex flex-row mt-2">
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
+                        <a href="https://instagram.com/elisa_elias__" target="_blank" aria-label="Instagram">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>Instagram</title>
@@ -184,7 +185,7 @@ export default function Main() {
                           </svg> </a>
                       </li>
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
+                        <a href="https://www.tiktok.com/@elisa_elias_" target="_blank" aria-label="Tiktok">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 50 50"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>Tiktok</title>
@@ -192,17 +193,9 @@ export default function Main() {
                           </svg> </a>
                       </li>
 
-                      <li className="mx-2">
-                        <a href="" target="_blank" aria-label="GitHub">
-                          <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 30 30"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Tiktok</title>
-                            <path d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"></path>
-                          </svg> </a>
-                      </li>
 
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/elisa-elias-0a7829268/" target="_blank" aria-label="LinkedIn">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>LinkedIn</title>
@@ -222,19 +215,19 @@ export default function Main() {
                       src="/images/invitados/cheang.jpg"
                       alt="" />
                     <h2 className="text-2xl text-gray-200 font-bold mt-2">
-                      Juan Carlos Cheang Wong
+                      Dr. Guillermo Cheang León
                     </h2>
                     <h2 className="text-base md:text-xl text-gray-400 font-bold">
-                      Investigador Titular @
-                      <a href="https://www.fisica.unam.mx/organizacion/personal.php?id=26&lang=es" target="_blank"
+                      Profesor @
+                      <a href="https://www.linkedin.com/in/gcheang/" target="_blank"
                         className="text-indigo-400 hover:text-indigo-200 font-bold border-b-0 hover:border-b-4 hover:border-b-indigo-300 transition-all mb-2" rel="noreferrer">
-                        cheang
+                        gcheang
                       </a>
                     </h2>
                     <ul className="flex flex-row mt-2">
 
                       <li className="mx-2">
-                        <a href="" target="_blank" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/guillermo-cheang-84a3639" target="_blank" aria-label="LinkedIn">
                           <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>LinkedIn</title>
@@ -375,7 +368,7 @@ export default function Main() {
                 <div
                   class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
                   <h3 class="text-lg font-semibold lg:text-xl">Conferencia Dr. Cheang</h3>
-                  <p class="mt-2 leading-6">Tema de la conferencia</p>
+                  <p class="mt-2 leading-6">"Uso de la IA en Ciberseguridad"</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:30 a.m a 11:30 a.m</span>
                 </div>
                 <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
@@ -489,7 +482,7 @@ export default function Main() {
                 </div>
                 <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
                   <h3 class="text-lg font-semibold lg:text-xl">Conferencia Elisa Elías</h3>
-                  <p class="mt-2 leading-6">Tema de la conferencia</p>
+                  <p class="mt-2 leading-6">"Uso de la IA en Ciberseguridad"</p>
                   <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">11:30 a.m a 12:30 p.m</span>
                 </div>
               </div>
