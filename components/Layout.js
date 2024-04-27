@@ -312,7 +312,7 @@ export default function Main() {
             <img src="/images/imagen1.jpg" alt="img" />
           </div>
           <div className="mx-auto flex flex-col items-center px-5 pt-56 lg:flex-row">
-            <div className="mb-5 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6">
+            <div className="mb-5 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16">
               <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
                 Actividad de Drones
               </h2>
@@ -329,7 +329,7 @@ export default function Main() {
               <div className="mb-8 md:mb-0 lg:w-full lg:max-w-xl">
                 <img src="/images/patrocinadas.png" alt="img" />
               </div>
-              <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pl-24 lg:pt-24">
+              <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pt-24">
                 <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl">
                   Dinámicas patrocinadas
                 </h2>
