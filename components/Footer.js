@@ -12,10 +12,10 @@ export default function Footer() {
               <h2 className="mb-3 text-lg tracking-widest">Redes sociales</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Facebook</a>
+                  <a href="https://www.facebook.com/ITESCHAM">Facebook</a>
                 </li>
                 <li>
-                  <a href="/">Whatsapp</a>
+                  <a href="https://wa.me/+529821845028">Whatsapp</a>
                 </li>
               </nav>
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
               <h2 className="mb-3 text-lg tracking-widest">TECNM</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">ITESCHAM</a>
+                  <a href="https://champoton.tecnm.mx/ITS_Champoton/">ITESCHAM</a>
                 </li>
               </nav>
             </div>
@@ -40,7 +40,6 @@ export default function Footer() {
               <div className="flex justify-center">
                 <img src="/images/tecnm.png" className="h-24"></img>
               </div>
-
             </div>
           </div>
 

@@ -2,8 +2,13 @@
 
 body {
   background-color: #0C1633;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #ffffff, #1c2d61), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 500px, transparent 28px, transparent 14px);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
   overflow-x: hidden;
   font-family: "Space Grotesk", sans-serif;
+
 }
 
 .svg_main {
@@ -28,7 +33,8 @@ body {
 }
 
 .Poppins {
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
+  ;
 }
 
 .Grotesk {

@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
+import { Link } from "react-scroll";
+
 export default function Header() {
   return (
     <>
@@ -15,24 +17,40 @@ export default function Header() {
             />
           </a>
           <div className="hidden pl-14 align-middle xl:inline-block">
-            <a href="/" className="pr-12 text-xl  text-gray-400 hover:text-white">
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white cursor-pointer"
+              to="inicio"
+              spy smooth duration={500}
+              isDynamic
+              spyThrottle={500}>
               Inicio
-            </a>
-            <a href="/" className="pr-12 text-xl text-gray-400 hover:text-white">
-              Invitados
-            </a>
-            <a href="/" className="pr-12 text-xl text-gray-400 hover:text-white">
-              Detalles
-            </a>
-            <a href="/" className="pr-12 text-xl text-gray-400 hover:text-white">
+            </Link>
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white cursor-pointer"
+              to="patrocinadores"
+              spy smooth duration={500}
+              offset={-50}>
               Patrocinadores
-            </a>
-            <a href="/" className="pr-12 text-xl text-gray-400 hover:text-white">
+            </Link>
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white" to="invitados"
+              spy smooth duration={500}
+              >
+              Invitados
+            </Link>
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white cursor-pointer"
+              to="detalles"
+              spy smooth duration={500} >
+              Detalles
+            </Link>
+
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white cursor-pointer"
+              to="actividades"
+              spy smooth duration={500} >
               Actividades
-            </a>
-            <a href="/" className="text-xl text-gray-400 hover:text-white">
-              Ubicación
-            </a>
+            </Link>
+            <Link activeClass="text-white" className="pr-12 text-xl text-gray-400 hover:text-white cursor-pointer"
+              to="ubicacion"
+              spy={true} smooth={true} duration={500} >
+              Ubicacion
+            </Link>
 
           </div>
         </div>
