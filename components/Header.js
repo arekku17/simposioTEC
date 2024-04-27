@@ -79,7 +79,7 @@ export default function Header() {
             <Link activeClass="text-white" className="pr-5 md:pr-12 text-xl hover:text-white cursor-pointer"
               to="ubicacion"
               spy={true} smooth={true} duration={500} >
-              Ubicacion
+              Ubicación
             </Link>
 
           </div>
