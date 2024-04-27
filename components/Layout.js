@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import Countdown from "react-countdown";
+import Image from 'next/image'
 
 export default function Main() {
   return (
@@ -14,8 +16,19 @@ export default function Main() {
               className="absolute top-1/2 left-1/2 text-sm md:text-lg -translate-x-1/2 -translate-y-1/2 text-black font-bold w-full text-center"
             >7 Y 8 DE MAYO, 2024 <span className="border border-black border-solid mx-3"></span> PRESENCIAL</p>
           </article>
-          <article className="text-white text-3xl md:text-6xl px-10 md:px-0 mx-auto w-full md:w-3/4 text-center my-10 md:my-14 font-bold tracking-widest">
-            <h1>XV Simposio de la Carrera de Ingeniería en Sistemas Computacionales</h1>
+          <article className="text-white 
+          text-3xl md:text-6xl px-10 md:px-0 mx-auto w-full my-10 md:my-14 font-bold Poppins 
+          flex flex-col md:flex-row items-center justify-center">
+            <div className="h-32 w-32 mb-4 md:h-32 md:w-32 lg:h-44 lg:w-44 relative"> 
+              <Image
+                src={"/images/logo.png"}
+                alt="Logo Simposio"
+                layout="fill" // required
+                objectFit="cover" // change to suit your needs
+                className="rounded-full" // just an example
+              />
+            </div>
+            <h1 className="lg:w-3/4 xl:w-1/2 md:text-3xl lg:text-6xl text-center md:text-left md:w-1/2 md:ml-5">XIII Simposio de Ingeniería en Sistemas Computacionales</h1>
           </article>
 
           <Countdown
@@ -337,176 +350,176 @@ export default function Main() {
             </div>
           </div>
 
-          <div class=" p-4">
-            <h2 class="text-3xl text-white font-bold mb-12">Actividades</h2>
+          <div className=" p-4">
+            <h2 className="text-3xl text-white font-bold mb-12">Actividades</h2>
             <p className="text-xl font-bold text-left md:text-center">Martes, 7 de mayo 2024</p>
-            <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
-              <div class="flex md:contents flex-row-reverse">
+            <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Registro</h3>
-                  <p class="mt-2 leading-6">Registro y escaneo de los asistentes</p>
-                  <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">8:00 a.m a 9:50 a.m</span>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Registro</h3>
+                  <p className="mt-2 leading-6">Registro y escaneo de los asistentes</p>
+                  <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">8:00 a.m a 9:50 a.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
-              <div class="flex md:contents">
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
+              <div className="flex md:contents">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300"></div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
-                <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Inauguración</h3>
-                  <p class="mt-2 leading-6">Inauguración en el auditorio del ITESCHAM</p>
+                <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Inauguración</h3>
+                  <p className="mt-2 leading-6">Inauguración en el auditorio del ITESCHAM</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">9:50 a.m a 10:30 a.m</span>
                 </div>
               </div>
 
-              <div class="flex md:contents flex-row-reverse">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Conferencia Dr. Cheang</h3>
-                  <p class="mt-2 leading-6">Tema de la conferencia</p>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia Dr. Cheang</h3>
+                  <p className="mt-2 leading-6">Tema de la conferencia</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:30 a.m a 11:30 a.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
-              <div class="flex md:contents">
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
+              <div className="flex md:contents">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300"></div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
-                <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Coffee Break</h3>
-                  <p class="mt-2 leading-6">Descanso con cómida</p>
-                  <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">11:30 a.m a 12:00 p.m</span>
+                <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Coffee Break</h3>
+                  <p className="mt-2 leading-6">Descanso con cómida</p>
+                  <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">11:30 a.m a 12:00 p.m</span>
                 </div>
               </div>
 
-              <div class="flex md:contents flex-row-reverse">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Dinámicas patrocinadas</h3>
-                  <p class="mt-2 leading-6">Descripción de las dinámicas</p>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Dinámicas patrocinadas</h3>
+                  <p className="mt-2 leading-6">Descripción de las dinámicas</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">12:00 p.m a 12:30 p.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
-              <div class="flex md:contents">
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
+              <div className="flex md:contents">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300"></div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
-                <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Conferencia 2</h3>
-                  <p class="mt-2 leading-6">Tema de la conferencia</p>
-                  <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">12:30 p.m a 1:30 pm</span>
+                <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia 2</h3>
+                  <p className="mt-2 leading-6">Tema de la conferencia</p>
+                  <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">12:30 p.m a 1:30 pm</span>
                 </div>
               </div>
             </div>
 
             <p className="text-xl font-bold text-left md:text-center mt-10">Miércoles, 8 de mayo 2024</p>
-            <div class="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
-              <div class="flex md:contents flex-row-reverse">
+            <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Coferencia Merari May Sosa</h3>
-                  <p class="mt-2 leading-6">"¿Cómo es que la IA nos entiende" Un vistazo al procesamiento natural del lenguaje (NLP)"</p>
-                  <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">9:00 a.m a 10:00 a.m</span>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Coferencia Merari May Sosa</h3>
+                  <p className="mt-2 leading-6">"¿Cómo es que la IA nos entiende Un vistazo al procesamiento natural del lenguaje (NLP)"</p>
+                  <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">9:00 a.m a 10:00 a.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
-              <div class="flex md:contents">
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
+              <div className="flex md:contents">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300"></div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
-                <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Coffee Break</h3>
-                  <p class="mt-2 leading-6">Descanso con comida</p>
+                <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Coffee Break</h3>
+                  <p className="mt-2 leading-6">Descanso con comida</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:00 a.m a 10:30 a.m</span>
                 </div>
               </div>
 
-              <div class="flex md:contents flex-row-reverse">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Actividad recreativa o taller</h3>
-                  <p class="mt-2 leading-6">Drones</p>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Actividad recreativa o taller</h3>
+                  <p className="mt-2 leading-6">Drones</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:30 a.m a 11:30 a.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
-              <div class="flex md:contents">
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300"></div>
+              <div className="flex md:contents">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300"></div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
-                <div class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Conferencia Elisa Elías</h3>
-                  <p class="mt-2 leading-6">Tema de la conferencia</p>
-                  <span class="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">11:30 a.m a 12:30 p.m</span>
+                <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia Elisa Elías</h3>
+                  <p className="mt-2 leading-6">Tema de la conferencia</p>
+                  <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">11:30 a.m a 12:30 p.m</span>
                 </div>
               </div>
 
-              <div class="flex md:contents flex-row-reverse">
+              <div className="flex md:contents flex-row-reverse">
                 <div
-                  class="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 class="text-lg font-semibold lg:text-xl">Clausura</h3>
-                  <p class="mt-2 leading-6">Clausura del simposio</p>
+                  className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                  <h3 className="text-lg font-semibold lg:text-xl">Clausura</h3>
+                  <p className="mt-2 leading-6">Clausura del simposio</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">12:30 p.m a 1 p.m</span>
                 </div>
-                <div class="relative col-start-5 col-end-6 mr-7 md:mx-auto">
-                  <div class="flex items-center justify-center w-6 h-full">
-                    <div class="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
                     </div>
                   </div>
-                  <div class="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                  <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
               </div>
 
@@ -525,7 +538,7 @@ export default function Main() {
               </div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15059.624534799197!2d-90.74567365223224!3d19.32987903707706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f7705ed8caaa91%3A0x172484b17c9319ae!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Champot%C3%B3n%20(ITESCHAM)!5e0!3m2!1ses-419!2smx!4v1713927247508!5m2!1ses-419!2smx"
-                width="600" height="650" allowfullscreen=""
+                width="600" height="650"
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="w-full"></iframe>
             </div>
           </div>

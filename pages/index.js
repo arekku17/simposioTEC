@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Simposio de Sistemas</title>
         <meta name="description" content="Página para el simposio de sistemas del ITESCHAM" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
       <Header />
       <Hero/>

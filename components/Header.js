@@ -3,7 +3,7 @@
 export default function Header() {
   return (
     <>
-      <div className="grotesk mb-16 flex items-center justify-between py-2 sm:mx-0 sm:mb-20 sm:px-0 md:px-6 z-20 fixed w-full
+      <div className="grotesk mb-16 flex items-center justify-between py-0 sm:mx-0 sm:mb-20 sm:px-0 md:px-6 z-20 fixed w-full
       backdrop-filter backdrop-blur-sm border-b border-gray-600
       ">
         <div className="flex justify-items-center items-center py-4 pl-8">
