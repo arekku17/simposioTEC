@@ -29,6 +29,7 @@ export default function Main() {
                 layout="fill" // required
                 objectFit="cover" // change to suit your needs
                 className="rounded-full" // just an example
+                priority={true}
               />
             </div>
             <h1 className="lg:w-3/4 xl:w-1/2 md:text-3xl lg:text-6xl text-center md:text-left md:w-1/2 md:ml-5">XIII Simposio de Ingeniería en Sistemas Computacionales</h1>
