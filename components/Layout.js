@@ -18,7 +18,7 @@ export default function Main() {
             <div className="w-80 md:w-96 h-11 bg-yellow-400 -skew-x-12"></div>
             <p
               className="absolute top-1/2 left-1/2 text-sm md:text-lg -translate-x-1/2 -translate-y-1/2 text-black font-bold w-full text-center"
-            >7 Y 8 DE MAYO, 2024 <span className="border border-black border-solid mx-3"></span> PRESENCIAL</p>
+            >7 Y 8 DE MAYO, 2024 <span className="border border-black border-solid mx-3"></span> HIBRIDO</p>
           </article>
           <article className="text-white 
           text-3xl md:text-6xl px-10 md:px-0 mx-auto w-full my-10 md:my-14 font-bold Poppins 
