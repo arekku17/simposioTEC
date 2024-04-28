@@ -451,7 +451,7 @@ export default function Main() {
                 <div
                   className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
                   <h3 className="text-lg font-semibold lg:text-xl">Coferencia Merari May Sosa</h3>
-                  <p className="mt-2 leading-6">"¿Cómo es que la IA nos entiende Un vistazo al procesamiento natural del lenguaje (NLP)"</p>
+                  <p className="mt-2 leading-6">"¿Cómo es que la IA nos entiende? Un vistazo al procesamiento natural del lenguaje (NLP)"</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">9:00 a.m a 10:00 a.m</span>
                 </div>
                 <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
