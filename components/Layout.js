@@ -438,8 +438,8 @@ export default function Main() {
                   <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
                 </div>
                 <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
-                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia 2</h3>
-                  <p className="mt-2 leading-6">Tema de la conferencia</p>
+                  <h3 className="text-lg font-semibold lg:text-xl">Taller de Drones</h3>
+                  <p className="mt-2 leading-6">Drones por el Consejo de Ciencia y Tecnología del Estado de Campeche</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">12:30 p.m a 1:30 pm</span>
                 </div>
               </div>
@@ -480,8 +480,8 @@ export default function Main() {
               <div className="flex md:contents flex-row-reverse">
                 <div
                   className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 className="text-lg font-semibold lg:text-xl">Actividad recreativa o taller</h3>
-                  <p className="mt-2 leading-6">Drones</p>
+                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia por confirmar</h3>
+                  <p className="mt-2 leading-6">Tema por confirmar</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:30 a.m a 11:30 a.m</span>
                 </div>
                 <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
