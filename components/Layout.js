@@ -7,6 +7,7 @@ import Countdown from "react-countdown";
 import Image from 'next/image'
 import { Element } from "react-scroll";
 import patrocinadores from "../utils/patrocinadores";
+import Link from 'next/link'
 
 export default function Main() {
   return (
@@ -61,15 +62,17 @@ export default function Main() {
           />
 
           <div className="flex gap-6 md:gap-10 mt-6 md:mt-24 flex-col md:flex-row">
-            <button className="registerBtn bg-pink-600 rounded-lg h-12 md:h-16 px-8 text-white font-bold cursor-pointer text-lg">
-              <p>REGISTRARSE AHORA</p>
-            </button>
+            <Link href="/registro">
+              <button className="registerBtn bg-pink-600 rounded-lg h-12 md:h-16 px-8 text-white font-bold cursor-pointer text-lg">
+                <p>REGISTRARSE AHORA</p>
+              </button>
+            </Link>
 
-            <a 
-            target="_blank"
-            href="https://forms.gle/jbjrmghdLyPocvAT8"
-            className="sponsorBtn inline-flex h-12 md:h-16 items-center justify-center p-0.5 mb-2 me-2 overflow-hidden font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-              
+            <a
+              target="_blank"
+              href="https://forms.gle/jbjrmghdLyPocvAT8"
+              className="sponsorBtn inline-flex h-12 md:h-16 items-center justify-center p-0.5 mb-2 me-2 overflow-hidden font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+
               <p className="px-10 py-2.5 transition-all ease-in duration-75  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 w-full h-full flex justify-center items-center">SER PATROCINADOR</p>
             </a>
           </div>
@@ -300,7 +303,7 @@ export default function Main() {
         </div>
 
         <Element name="detalles" className="text-white">
-          <div className="mx-auto px-5 pt-10 pb-12 lg:px-24">
+          <div className="mx-auto px-5 pt-20 pb-12 lg:px-24">
 
             <div className="my-3 flex w-full flex-col text-left lg:text-center">
               <h2 className="bold mb-8 text-4xl font-bold leading-tight text-white lg:text-6xl">

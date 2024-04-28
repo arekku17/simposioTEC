@@ -25,7 +25,7 @@ export default function Footer() {
               <h2 className="mb-3 text-lg tracking-widest">Registro</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Registro al evento</a>
+                  <a href="/registro">Registro al evento</a>
                 </li>
               </nav>
             </div>

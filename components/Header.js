@@ -50,17 +50,15 @@ export default function Header() {
           >
             <Link activeClass="text-white" className="pr-5 md:pr-12 text-xl hover:text-white cursor-pointer"
               to="inicio"
-              spy={true} smooth duration={500}
-              spyThrottle={500}>
+              spy={true} smooth duration={500} offset={-50}>
               Inicio
             </Link>
             <Link activeClass="text-white" className="pr-5 md:pr-12 text-xl hover:text-white cursor-pointer"
               to="patrocinadores"
-              spy smooth duration={500}
-              offset={-50}>
+              spy smooth duration={500}>
               Patrocinadores
             </Link>
-            <Link activeClass="text-white" className="pr-5 md:pr-12 text-xl hover:text-white" to="invitados"
+            <Link activeClass="text-white" className="pr-5 md:pr-12 text-xl hover:text-white cursor-pointer" to="invitados"
               spy smooth duration={500}
             >
               Invitados
@@ -88,11 +86,12 @@ export default function Header() {
           <div className="hidden py-1 text-right xl:inline-block">
             <a
               className="bg-pink-600 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
-              href="/"
+              href="/registro"
             >
-              Pre-registrarse
+              REGISTRARSE
             </a>
           </div>
+
           <button className="pr-12 pl-4" onClick={handleMenu}>
             <svg
               fill="#ffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"

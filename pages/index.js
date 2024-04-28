@@ -12,10 +12,8 @@ export default function Home() {
         <meta name="description" content="Página para el simposio de sistemas del ITESCHAM" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <Header />
       <Hero/>
       <Layout />
-      <Footer />
     </>
   );
 }
