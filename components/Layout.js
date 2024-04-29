@@ -96,7 +96,8 @@ export default function Main() {
                 <div
                   className="
                 grid grid-cols-2
-                gap-16
+                gap-8
+                lg:gap-16
                 text-center
                 lg:grid-cols-6"
                 >
@@ -104,7 +105,7 @@ export default function Main() {
                     patrocinadores.map(item => (
 
                       <div className="items-center justify-center" key={item.nombre}>
-                        <a href={item.link} target="_blank">
+                        <a href={item.link} target="_blank" className="flex items-center justify-center">
                           <img
                             src={item.logo}
                             alt="Segment"
@@ -558,8 +559,20 @@ export default function Main() {
                   <h2 className="mb-2 text-3xl font-bold leading-tight ">
                     Nuestro equipo de trabajo
                   </h2>
-                  <h2 className="mb-6 text-lg text-gray-300 sm:text-lg">
-                    Sistemas Octavo Semestre (Generación 2020-2024)
+                  <h2 className="text-lg text-gray-300 sm:text-lg">
+                    Director
+                  </h2>
+                  <h2 className="text-lg text-gray-300 sm:text-lg">
+                    Subdirectores
+                  </h2>
+                  <h2 className="text-lg text-gray-300 sm:text-lg">
+                    Jefe de División
+                  </h2>
+                  <h2 className="text-lg text-gray-300 sm:text-lg">
+                    Academia de ISIC
+                  </h2>
+                  <h2 className="text-lg mb-5 text-gray-300 sm:text-lg">
+                    Grupo de octavo semestre ISIC (Generación 2020 - 2024)
                   </h2>
                   <h2 className="mb-4 text-3xl font-bold sm:text-3xl">
                     Levinux es poder, es amor.
