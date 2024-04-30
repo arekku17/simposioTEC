@@ -87,7 +87,7 @@ export default function Main() {
         <div>
           <Element name="patrocinadores">
             <div className="mx-auto">
-              <div className="mx-auto px-5 py-24 lg:px-24">
+              <div className="mx-auto px-5 py-24">
                 <div className="flex w-full flex-col text-center">
                   <h2 className="mb-5 text-2xl font-bold text-white lg:text-3xl">
                     Nuestros patrocinadores oficiales
@@ -109,7 +109,7 @@ export default function Main() {
                           <img
                             src={item.logo}
                             alt="Segment"
-                            className="block h-24 object-contain"
+                            className="block h-32 object-contain"
                           />
                         </a>
 
@@ -278,6 +278,34 @@ export default function Main() {
                             </svg> </a>
                         </li>
 
+                      </ul>
+                    </div>
+
+                    <div className="px-2 py-4 mt-10 flex flex-col justify-center items-center text-center">
+                      <img
+                        className="inline-flex object-cover border-4 border-indigo-600 rounded-full shadow-[0px_0px_0_0_rgba(0,0,0,1)]
+                   shadow-indigo-600/100 bg-indigo-50 text-indigo-600 !h-48 !w-48"
+                        src="/images/invitados/joel.png"
+                        alt="" />
+                      <h2 className="text-2xl text-gray-200 font-bold mt-2">
+                        Joel Vazquez Tec
+                      </h2>
+                      <h2 className="text-base md:text-xl text-gray-400 font-bold">
+                        Empresario @
+                        <a href="https://www.instagram.com/vaztecshop/" target="_blank"
+                          className="text-indigo-400 hover:text-indigo-200 font-bold border-b-0 hover:border-b-4 hover:border-b-indigo-300 transition-all mb-2" rel="noreferrer">
+                          Vaztec
+                        </a>
+                      </h2>
+                      <ul className="flex flex-row mt-2">
+                        <li className="mx-2">
+                          <a href="https://www.instagram.com/vaztecshop/" target="_blank" aria-label="Instagram">
+                            <svg className="h-8 text-indigo-700 hover:text-indigo-300" fill="currentColor" role="img" viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <title>Instagram</title>
+                              <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z" />
+                            </svg> </a>
+                        </li>
                       </ul>
                     </div>
 
@@ -481,8 +509,8 @@ export default function Main() {
               <div className="flex md:contents flex-row-reverse">
                 <div
                   className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
-                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia por confirmar</h3>
-                  <p className="mt-2 leading-6">Tema por confirmar</p>
+                  <h3 className="text-lg font-semibold lg:text-xl">Conferencia Joel Vazquez Tec</h3>
+                  <p className="mt-2 leading-6">Caso de éxito VAZTEC</p>
                   <span className="absolute text-indigo-100 -top-7 left-2 whitespace-nowrap">10:30 a.m a 11:30 a.m</span>
                 </div>
                 <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
