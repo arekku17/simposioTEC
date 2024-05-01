@@ -22,8 +22,8 @@ const patrocinadores = [
     },
     {
       nombre: "Valagoz",
-      logo: "https://i.ibb.co/Ky1f3DF/42972df1-30f7-49bc-b82f-702fc62d4586.jpg",
-      link: "https://i.ibb.co/MSMX7xS/Whats-App-Image-2024-04-30-at-6-05-53-PM.jpg"
+      logo: "https://i.ibb.co/MSMX7xS/Whats-App-Image-2024-04-30-at-6-05-53-PM.jpg",
+      link: "https://www.facebook.com/profile.php?id=61554981143395"
     },
     {
       nombre: "Opticas Veo",
