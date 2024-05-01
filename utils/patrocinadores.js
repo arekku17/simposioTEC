@@ -50,6 +50,11 @@ const patrocinadores = [
       logo: "/images/patrocinadores/printad.jpg",
       link: "https://www.facebook.com/profile.php?id=100063530985276"
     },
+    {
+      nombre: "Flor de trigo",
+      logo: "https://scontent.fcjs3-1.fna.fbcdn.net/v/t39.30808-6/369256207_122103509000017379_3642588777365183130_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHVjOlWGiEeQieJYcqEUggGiy-4Fx8MaEmLL7gXHwxoSbDE5gNH3RPaQTmpxf3X7mFiSC1O3sm65YPRHQ742TLu&_nc_ohc=rTcJ4ZD203MQ7kNvgERI31p&_nc_ht=scontent.fcjs3-1.fna&oh=00_AfA_yfhmstt6aH2_FOsEuqpInWn7lxBTYRHbHig0g0gOgA&oe=663778FE",
+      link: "https://www.facebook.com/profile.php?id=61550521386253"
+    },
     // Añade más objetos según sea necesario
   ];
   
