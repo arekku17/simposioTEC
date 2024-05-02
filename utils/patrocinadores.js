@@ -80,6 +80,11 @@ const patrocinadores = [
       logo: "https://i.ibb.co/vc2G99m/web-whatsapp-50.png",
       link: "https://www.facebook.com/AlmacenesVargas"
     },
+    {
+      nombre: "Taqueria Paloma",
+      logo: "https://i.ibb.co/80dc3D6/3f55788637884d84a71f7091e576ac5f.png",
+      link: "https://www.facebook.com/profile.php?id=61552708588212"
+    },
     // Añade más objetos según sea necesario
   ];
   
