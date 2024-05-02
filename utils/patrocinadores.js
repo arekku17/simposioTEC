@@ -55,6 +55,31 @@ const patrocinadores = [
       logo: "https://scontent.fcjs3-1.fna.fbcdn.net/v/t39.30808-6/369256207_122103509000017379_3642588777365183130_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHVjOlWGiEeQieJYcqEUggGiy-4Fx8MaEmLL7gXHwxoSbDE5gNH3RPaQTmpxf3X7mFiSC1O3sm65YPRHQ742TLu&_nc_ohc=rTcJ4ZD203MQ7kNvgERI31p&_nc_ht=scontent.fcjs3-1.fna&oh=00_AfA_yfhmstt6aH2_FOsEuqpInWn7lxBTYRHbHig0g0gOgA&oe=663778FE",
       link: "https://www.facebook.com/profile.php?id=61550521386253"
     },
+    {
+      nombre: "Cithali Academia de Danza",
+      logo: "https://i.ibb.co/TqQbVHS/Whats-App-Image-2024-05-02-at-2-46-14-PM.jpg",
+      link: "https://www.facebook.com/AcademiaDeDanzaCithlali"
+    },
+    {
+      nombre: "Estudio de artes MC",
+      logo: "https://i.ibb.co/gPBcMLn/Whats-App-Image-2024-05-02-at-2-46-13-PM.jpg",
+      link: "https://www.facebook.com/EstudiodeartesMC"
+    },
+    {
+      nombre: "Unión Local de Cañeros del Ingenio La Joya",
+      logo: "https://i.ibb.co/PjjyVSw/Logotipo-color.png",
+      link: "https://www.facebook.com/pages/Uni%C3%B3n-Local-de-Ca%C3%B1eros-del-Ingenio-La-Joya-SPR-de-RL/374577313000464"
+    },
+    {
+      nombre: "Gym Ruibal's Fitness",
+      logo: "https://i.ibb.co/GphY0kV/Whats-App-Image-2024-05-02-at-7-23-23-AM.jpg",
+      link: "https://www.facebook.com/profile.php?id=100054257960417"
+    },
+    {
+      nombre: "Almacenes Vargas",
+      logo: "https://i.ibb.co/vc2G99m/web-whatsapp-50.png",
+      link: "https://www.facebook.com/AlmacenesVargas"
+    },
     // Añade más objetos según sea necesario
   ];
   
