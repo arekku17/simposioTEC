@@ -100,6 +100,16 @@ const patrocinadores = [
       logo: "https://i.ibb.co/mTBjMfb/Imagen-de-Whats-App-2024-05-02-a-las-21-04-31-0fc7e2c1.jpg",
       link: "https://www.facebook.com/profile.php?id=100089494504846"
     },
+    {
+      nombre: "Aguas Naturales El Amigo Levi",
+      logo: "https://i.ibb.co/pb9vQVG/Whats-App-Image-2024-05-03-at-8-53-04-AM.jpg",
+      link: "/"
+    },
+    {
+      nombre: "Comisaria de Sihochac",
+      logo: "https://i.ibb.co/02YVtc2/Whats-App-Image-2024-05-03-at-9-20-27-AM.jpg",
+      link: "/"
+    },
     // Añade más objetos según sea necesario
   ];
   
