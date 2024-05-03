@@ -6,11 +6,6 @@ const patrocinadores = [
       link: "https://cineatlantis.com.mx/"
     },
     {
-      nombre: "Akrab Studio",
-      logo: "/images/patrocinadores/akrab.png",
-      link: "https://www.facebook.com/akrabstudio"
-    },
-    {
       nombre: "La Doblebgang Barber",
       logo: "https://i.ibb.co/9gZ6RK4/Whats-App-Image-2024-04-27-at-2-27-06-PM.jpg",
       link: "https://www.facebook.com/profile.php?id=61556275406037"
