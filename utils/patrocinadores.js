@@ -85,6 +85,21 @@ const patrocinadores = [
       logo: "https://i.ibb.co/80dc3D6/3f55788637884d84a71f7091e576ac5f.png",
       link: "https://www.facebook.com/profile.php?id=61552708588212"
     },
+    {
+      nombre: "TEEKSI",
+      logo: "https://i.ibb.co/frB1Cxp/Imagen-de-Whats-App-2024-04-29-a-las-18-30-11-854acec6.jpg",
+      link: "https://www.facebook.com/profile.php?id=100010802268651"
+    },
+    {
+      nombre: "Pizzeria Tony's",
+      logo: "https://i.ibb.co/bB6m8jw/Imagen-de-Whats-App-2024-05-01-a-las-16-34-44-4109af8f.jpg",
+      link: "https://www.facebook.com/profile.php?id=100015050404150"
+    },
+    {
+      nombre: "La casita de juguete",
+      logo: "https://i.ibb.co/mTBjMfb/Imagen-de-Whats-App-2024-05-02-a-las-21-04-31-0fc7e2c1.jpg",
+      link: "https://www.facebook.com/profile.php?id=100089494504846"
+    },
     // Añade más objetos según sea necesario
   ];
   
