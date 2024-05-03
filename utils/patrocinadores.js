@@ -113,12 +113,22 @@ const patrocinadores = [
     {
       nombre: "Pasteleria Erikar",
       logo: "https://i.ibb.co/G3KXJ16/images.png",
-      link: "https://www.facebook.com/profile.php?id=100063745137271"
+      link: "https://i.ibb.co/h1yyg5C/cd06e028-e6fa-4a41-bf8d-11e186e378ba.jpg"
     },
     {
       nombre: "Micheladas Luka",
       logo: "https://i.ibb.co/gtpWf4c/409f805a-5029-42f9-951f-9ed76ca3a33c.jpg",
       link: "https://www.facebook.com/MicheladasLuka"
+    },
+    {
+      nombre: "Taqueria Rey Lechon",
+      logo: "https://i.ibb.co/YLcy466/rey-lechon.jpg",
+      link: "https://www.facebook.com/profile.php?id=100069277370255"
+    },
+    {
+      nombre: "Dulce Postre By Karol",
+      logo: "https://i.ibb.co/hYbHvyq/650dc656-758a-4cdf-b78a-b109419b9654.jpg",
+      link: "https://www.facebook.com/profile.php?id=100063623378288"
     },
     // Añade más objetos según sea necesario
   ];
