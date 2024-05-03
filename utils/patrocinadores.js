@@ -110,6 +110,16 @@ const patrocinadores = [
       logo: "https://i.ibb.co/02YVtc2/Whats-App-Image-2024-05-03-at-9-20-27-AM.jpg",
       link: "/"
     },
+    {
+      nombre: "Pasteleria Erikar",
+      logo: "https://i.ibb.co/G3KXJ16/images.png",
+      link: "https://www.facebook.com/profile.php?id=100063745137271"
+    },
+    {
+      nombre: "Micheladas Luka",
+      logo: "https://i.ibb.co/gtpWf4c/409f805a-5029-42f9-951f-9ed76ca3a33c.jpg",
+      link: "https://www.facebook.com/MicheladasLuka"
+    },
     // Añade más objetos según sea necesario
   ];
   
