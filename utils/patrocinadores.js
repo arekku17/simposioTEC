@@ -125,6 +125,11 @@ const patrocinadores = [
       logo: "https://i.ibb.co/hYbHvyq/650dc656-758a-4cdf-b78a-b109419b9654.jpg",
       link: "https://www.facebook.com/profile.php?id=100063623378288"
     },
+    {
+      nombre: "Brincoletas",
+      logo: "https://scontent.fcjs3-1.fna.fbcdn.net/v/t39.30808-6/314341242_864454038260638_3179235829149796750_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZvgQcOMKfXoQ7kNvgHFl9Ar&_nc_ht=scontent.fcjs3-1.fna&oh=00_AfDOOkzASzDKzEXKz62v5PI7zyRJJikQRfbfWvGMS0BCJA&oe=66416380",
+      link: "https://www.facebook.com/brincoletas.evento"
+    },
     // Añade más objetos según sea necesario
   ];
   
